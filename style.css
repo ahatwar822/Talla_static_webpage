@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "attila";
+    src: url(./Attila-Regular.ttf);
+}
+
+@font-face {
+    font-family: "dancing script";
+    src: url(./DancingScript-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "lora";
+    box-sizing: border-box;
+    color: #d1d1d1;
+}
+
+html,body{
+    /* width: 100%;
+    height: 100%; */
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+#main{
+    position: relative;
+    background-color: #222;
+    
+}
+
+#full-scr-nav{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    top: -100vh;
+    padding: 200px 150px;
+    position: absolute;
+    color: #222;
+    transition: all ease 0.9s;
+}
+
+#full-scr-nav h1{
+    font-size: 240px ;
+    color:  #222;
+}
+
+#nav{
+    height:100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: absolute;
+    z-index: 99;
+    position: sticky;
+
+}
+
+#nav-prt2{
+    display: flex;
+    align-items: center;
+}
+
+#nav-prt2 i{
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer; 
+}
+
+#nav h2{
+    font-size: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+
+#page1{
+    min-height: 85vh;
+    width: 100vw;
+    position: relative;
+    
+}
+
+#page1 h1{
+    
+    position: absolute;
+    left: 12.5%;
+    letter-spacing: 12px;
+    font-size: 14vw;
+    top: 23%;
+    text-transform: uppercase;
+}
+
+#page1 h2{
+    position: absolute;
+    left: 28%;
+    font-size: 2.8vw;
+    top: 56%;
+    width: 28%;
+    line-height: 2.6vw;
+}
+
+#page1 h3{
+    position: absolute;
+    left: 72%;
+    font-size: 1vw;
+    top: 44%;
+    width: 10%;
+    line-height: 1vw;
+}
+
+#page2 img{
+    position: relative;
+    /* min-height: 100px; */
+    left: 50%;
+    transform: translate(-50%,0%) scale(0.9);
+    width: 100%;
+}
+
+#page2{
+     min-height: 100vh;
+     position: relative;
+     padding-bottom: 20vh;
+}
+
+#page2 h1{
+    font-size: 40px;
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform-origin:100% 100% ;
+    
+}
+#page2 #h11{
+    margin-top: 20vh;
+}
+
+#page2 h1 span{
+    font-family: "dancing script" ;
+}
+
+#page3{
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#page4{
+    position: relative;
+    min-height: 85vh;
+    width: 100%;
+    padding: 60px 140px;
+}
+
+#page4 h1{
+    font-size: 7vw;
+    /* margin-top: 10vh;
+    margin-bottom: 10vh; */
+}
+
+#page5{
+    position: relative;
+    min-height: 130vh;
+    width: 100vw;
+}
+
+#page5-elems{
+    min-height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d1d1d1;
+    border-left: none;
+}
+
+#page5-elems h1{
+    width:70%;
+    height: 100%;
+    padding: 10px 80px;
+    font-size: 40px;
+    
+    
+}
+
+
+#page5-elems h2{
+    width: 30%;
+    height: 100%;
+    padding: 10px 80px;
+    font-size: 20px;
+    border-left: 1px solid #d1d1d1;
+    border-right: none;
+}
+
+#page5-content{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://64.media.tumblr.com/b76673f05d6edadf0eae8360e1174024/c9b2bc7df778e852-c6/s500x281/25d3bd7fec8d43e31fc0a1ae4a7965dcca8e325c.gif);
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px;
+}
+
+#page5-content h1{
+    font-size: 3.9vw;
+    width: 56%;
+    text-align: center;
+    /* margin-bottom: 10vh;
+    margin-top: 10vh; */
+    line-height: 3vw;
+}
+
+#page5-content h1 span{
+    font-family: "dancing script" ;
+
+}
+
+#page5-content h4{
+    font-size: 1.1vw;
+    width: 25%;
+    text-align:left;
+    padding: 30px;
+   
+}
+
+#page5-content  img{
+    width: 3%;
+    height: 4.5%;
+}
