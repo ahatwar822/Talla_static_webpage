@@ -69,3 +69,33 @@ gsap.from("#page2 h1",{
         opacity:1
     }
 })
+
+var slide1h1 = document.querySelectorAll("#page6 .slide1-of-h1 h1")
+
+slide1h1.forEach(function (elem) {
+    gsap.to(elem, {
+        transform: "translateX(-100%)",
+        duration: 4,
+        scrollTrigger: {
+            trigger: "#page6",
+            scroller: "body",
+            scrub: 3
+        }
+    })
+})
+
+
+var slide2h1 = document.querySelectorAll("#page6 .slide2-of-h1 h1")
+
+slide2h1.forEach(function (elem) {
+    gsap.to(elem, {
+        transform: "translateX(0%)",
+        duration: 4,
+        scrollTrigger: {
+            trigger: "#page6",
+            scroller: "body",
+            scrub: 3
+        }
+    })
+})
+

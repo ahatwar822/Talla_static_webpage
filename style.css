@@ -240,3 +240,128 @@ html,body{
     width: 3%;
     height: 4.5%;
 }
+
+/* #page6 h1{
+    font-size: 10vw;
+    text-transform:uppercase;
+    line-height: 20vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+#page6 .slide1-of-h1{
+    overflow-x: auto;
+    overflow-y: hidden; 
+    cursor: default;
+}
+
+#page6 .slide2-of-h1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+#page6 h1::-webkit-scrollbar{
+    display: none;}
+
+#page6 .slide2-of-h1::-webkit-scrollbar{
+    display: none;
+}
+#page6 .slide1-of-h1::-webkit-scrollbar{
+    display: none;
+}
+
+#page6 .slide2-of-h1 {
+    transform: translateX(-100%);
+}
+
+#page6 h1 .one2{
+    color: transparent;
+    -webkit-text-stroke: 1px #d1d1d1;
+} */
+
+
+#page6 h1 {
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 20vh;
+    /* overflow-x: auto; */
+    /* overflow-y: hidden; */
+    /* cursor: default; */
+}
+
+#page6 .slide1-of-h1,
+#page6 .slide2-of-h1 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+#page6 h1::-webkit-scrollbar,
+#page6 .slide2-of-h1::-webkit-scrollbar,
+#page6 .slide1-of-h1::-webkit-scrollbar {
+    display: none;
+}
+
+#page6 .slide2-of-h1 h1{
+    transform: translateX(-100%);
+}
+
+#page6 h1 .one2 {
+    color: transparent;
+    -webkit-text-stroke: 1px #d1d1d1;
+}
+
+
+#page7{
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    padding : 100px 50px;
+    text-align: center;
+}
+
+#page7 h3{
+    font-size: 3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45%;
+
+}
+
+#page7 h3 span{
+    font-family: "dancing script" ;
+    font-size: 3.5vw;
+}
+
+#page7-elems{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10vh;
+}
+
+#page7-elems #element1{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page7-elems #element1 h1,
+#page7-elems #element2 h1{
+    font-size:60px
+}
+
+#page7-elems #element2{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
