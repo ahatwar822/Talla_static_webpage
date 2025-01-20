@@ -101,7 +101,7 @@ slide2h1.forEach(function (elem) {
 
 document.querySelector("#element1").addEventListener("mousemove",function(dets){
     document.querySelector('#element1 img').style.opacity = 1
-    document.querySelector('#element1 img').style.left =  `${dets.x - 230}px`
+    document.querySelector('#element1 img').style.left =  `${dets.x - 10}px`
     document.querySelector('#element1 img').style.top =  `${dets.y - 230}px`
 })
 
@@ -111,7 +111,7 @@ document.querySelector("#element1").addEventListener("mouseleave",function(dets)
 
 document.querySelector("#element2").addEventListener("mousemove",function(dets){
     document.querySelector('#element2 img').style.opacity = 1
-    document.querySelector('#element2 img').style.left =  `${dets.x - 230}px`
+    document.querySelector('#element2 img').style.left =  `${dets.x - 10}px`
     document.querySelector('#element2 img').style.top =  `${dets.y - 230}px`
 })
 

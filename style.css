@@ -350,6 +350,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: none;
 }
 
 #page7-elems #element1 h1,
@@ -365,6 +366,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: none;
     /* background-color: aquamarine; */
 }
 
