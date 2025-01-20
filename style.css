@@ -354,7 +354,9 @@ html,body{
 
 #page7-elems #element1 h1,
 #page7-elems #element2 h1{
-    font-size:60px
+    font-size:60px;
+    z-index: 99;
+    position: relative;
 }
 
 #page7-elems #element2{
@@ -363,5 +365,26 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
+
+#page7-elems #element1 img{
+    height: 300px;
+    width: 250px;
+    position: absolute ;
+    opacity: 0;
+    transition: opacity ease-in 0.2s;
+    transform: rotate(10deg);
+
+
+}
+
+#page7-elems #element2 img{
+    height: 300px;
+    width: 250px;
+    position: absolute ;
+    opacity: 0;
+    transition: opacity ease-in 0.2s;
+    transform: rotate(10deg);
+}
+
