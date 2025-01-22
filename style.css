@@ -38,6 +38,7 @@ html,body{
     position: absolute;
     color: #222;
     transition: all ease 0.9s;
+    z-index: 99;
 }
 
 #full-scr-nav h1{
