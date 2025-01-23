@@ -63,6 +63,13 @@ menu.addEventListener("click", function () {
 
 })
 
+gsap.to("#page5-content img",{
+    rotate:360,
+    repeat:-1,
+    duration:2.5,
+    ease:"linear",
+})
+
 var tl = gsap.timeline()
 
 tl.from("#page1 h1", {
